@@ -8,8 +8,8 @@ app.use(express.json());
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 const CONFIG = {
   VERIFY_TOKEN: "mybot",
-  WHATSAPP_TOKEN: "EAAROXmLEk1YBQ1uEjdrwsimCw83hcJPgjxLfkoygF5UgbRLQQaY9bQHO3QlJ6lit65TPWiizGPOOE20Fmy4BbjhjfXmY0HImAZCBtpw6QlKeHZAiFrWuG2eoosp3F10jIjM9cSlRU9n2k4CShweZCwaedHXg68sbrXWZBh0ftRSoQN5Jay5u5cA1TAqRmrXGgoZAXmfUzAbEZCFPfUQFBd1HVkHsgEK2gAh0JZBl66ZAM1WaKjofqiluqloCUa34yz86JyvfQZBEkcCPcxAK5HzHEh9Bc",
-  PHONE_NUMBER_ID: "10124025819598833",
+  WHATSAPP_TOKEN: "EAAROXmLEk1YBQ6S07ZA3cD48advsRj0qEZAz8VrmLhCNJhsIkNk59QN7ctRsHGOdTqBXDltGGI0pSdepUgD0zjFUjdmZBZCiQXB7JdbUu6oewKDldao4y754x6IuH5qZBKG949PnpwsApAcoIYyCUSGDIXZBe4Fc4ZCkVfUVnxuZB7M5GpXHowvgqDU14iTbGZCL6RgZDZD",
+  PHONE_NUMBER_ID: "1012402581959883",
   GEMINI_API_KEY: "AIzaSyCbIEVqjddpNA11SPuBimpiwvZBf0WL-w8",
 
   SYSTEM_PROMPT: `Nta assistant dial Ourfit Wear, brand marocaine katbi3 tracksuits f Morocco.
