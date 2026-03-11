@@ -9,7 +9,7 @@ app.use(express.json());
 const CONFIG = {
   VERIFY_TOKEN: "mybot",
   WHATSAPP_TOKEN: "EAAROXmLEk1YBQxr44Y7Qmpf7TPzVxSdEkQR8aS8gYZBo9zLxfTOdO7KcBS4XPRprd9FPt0WZCUIPogccqyYjZBV7jlZAvGlbxnBw7mYjgQ1HpihSTWdBEGD5Izq7UZC5X2MPFEAiOChvcLj2rOXXwvSU3FlOeyno7pwK8tPtrNVsnrrqviOjIsqgFWjv8ZBEAzcL1nHZA6PfZAOX2a9qyGsYBATSDE4XR4z1wD9W9hKlZCyFIZB6dVay9yJurRkMw91BZC2AijCyLUM6GYKRt9caJYFvZBUyKQZDZD",
-  PHONE_NUMBER_ID: "10124025819598833",
+  PHONE_NUMBER_ID: "1012402581959883",
   GEMINI_API_KEY: "AIzaSyC2fKHgFxMvHY8a8fXZ2R6XxJ2p9q2iwCs",
 
   SYSTEM_PROMPT: `Nta assistant dial Ourfit Wear, brand marocaine katbi3 tracksuits f Morocco.
@@ -63,7 +63,7 @@ Fréqikum f les 24h-48h!"
 // ─────────────────────────────────────────────────────────────────────────────
 
 const genAI = new GoogleGenerativeAI(CONFIG.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-preview-04-17" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 const conversations = {};
 
