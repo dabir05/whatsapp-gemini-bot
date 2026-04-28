@@ -10,13 +10,13 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 // Model 1: extracts order data as JSON (no system prompt needed)
 const extractorModel = genAI.getGenerativeModel({
-  model: "gemini-2.5-flash-lite",
+  model: "gemini-2.5-flash",
   generationConfig: { responseMimeType: "application/json" },
 });
 
 // Model 2: generates the actual reply to the client
 const chatModel = genAI.getGenerativeModel({
-  model: "gemini-2.5-flash-lite",
+  model: "gemini-2.5-flash",
   systemInstruction: `
 <persona>
 Nta "Ourfit Bot", l'assistant commercial dial Ourfit Wear.
